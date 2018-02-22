@@ -1,0 +1,93 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+.header {
+    margin-bottom: 50px;
+}
+
+.badge {
+    position: absolute;
+    left: -100px;
+    top: 80px;
+    color: white;
+    font-family: Nosifer;
+    height: 60px;
+    width: 400px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    transform: rotate(-45deg);
+}
+
+.blog-title {
+    width: 60%;
+    margin-left: 22%;
+    height: 200px;
+    color: red;
+    font-family: Nosifer;
+    font-size: 60px;
+    line-height: 140px;
+}
+
+.post {
+    position: relative;
+    top: 200px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.post-date {
+    border-top: 2px solid red;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.post-title {
+    border-top: 2px solid red;
+    font-family: Nosifer;
+    color: red;
+    font-size: 70px;
+    width: 60%;
+}
+
+.post-author {
+    color: red;
+    font-family: Nosifer;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.post-body {
+    color: white;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.post-social {
+    display: flex;
+    flex-direction: column;
+    width:55px;
+    border-top: 2px solid red;
+}
+
+img {
+    margin: 10px;
+}
+
+.pic {
+    height: 250px;
+    width: 250px;
+}

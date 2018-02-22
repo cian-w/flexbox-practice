@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Flexbox Lab 1</title>
+    </head>
+    <body>
+        <h2>Flexbox</h2>
+        <div class="container">
+            <div class="one col">
+                <h3>Step 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget dui ut justo auctor semper a ullamcorper justo. Morbi placerat tortor tortor, ac dignissim leo semper ac. Donec non metus sit amet neque eleifend rhoncus vitae id dolor. Etiam vestibulum lobortis sem semper laoreet. Vestibulum egestas elit sed lacus egestas, placerat congue erat faucibus. Nunc ac dui auctor, fermentum turpis ac, mattis magna. Nulla pellentesque, ligula vel faucibus imperdiet, arcu ligula ornare quam, et blandit risus sem sit amet neque. Curabitur commodo dui et metus suscipit, ut dignissim risus hendrerit. Quisque at odio nec risus condimentum ullamcorper. Nulla sit amet felis sit amet neque aliquet auctor sed nec metus. Sed gravida mattis sem, nec finibus diam suscipit sit amet.</p>
+            </div>
+            <div class="two col">
+                <div class="two-a">
+                    <h3>Step 2a</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget dui ut justo auctor semper a ullamcorper justo. Morbi placerat tortor tortor, ac dignissim leo semper ac. Donec non metus sit amet neque eleifend rhoncus vitae id dolor. Etiam vestibulum lobortis sem semper laoreet. Vestibulum egestas elit sed lacus egestas, placerat congue erat faucibus. Nunc ac dui auctor, fermentum turpis ac, mattis magna. Nulla pellentesque, ligula vel faucibus imperdiet, arcu ligula ornare quam, et blandit risus sem sit amet neque. Curabitur commodo dui et metus suscipit, ut dignissim risus hendrerit. Quisque at odio nec risus condimentum ullamcorper. Nulla sit amet felis sit amet neque aliquet auctor sed nec metus. Sed gravida mattis sem, nec finibus diam suscipit sit amet.</p>
+                </div>
+                <div class="two-b">
+                    <h3>Step 2b</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget dui ut justo auctor semper a ullamcorper justo. Morbi placerat tortor tortor, ac dignissim leo semper ac. Donec non metus sit amet neque eleifend rhoncus vitae id dolor. Etiam vestibulum lobortis sem semper laoreet. Vestibulum egestas elit sed lacus egestas, placerat congue erat faucibus. Nunc ac dui auctor, fermentum turpis ac, mattis magna. Nulla pellentesque, ligula vel faucibus imperdiet, arcu ligula ornare quam, et blandit risus sem sit amet neque. Curabitur commodo dui et metus suscipit, ut dignissim risus hendrerit. Quisque at odio nec risus condimentum ullamcorper. Nulla sit amet felis sit amet neque aliquet auctor sed nec metus. Sed gravida mattis sem, nec finibus diam suscipit sit amet.</p>
+                </div>
+            </div>
+            <div class="three col">
+                <h3>Step 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget dui ut justo auctor semper a ullamcorper justo. Morbi placerat tortor tortor, ac dignissim leo semper ac. Donec non metus sit amet neque eleifend rhoncus vitae id dolor. Etiam vestibulum lobortis sem semper laoreet. Vestibulum egestas elit sed lacus egestas, placerat congue erat faucibus. Nunc ac dui auctor, fermentum turpis ac, mattis magna. Nulla pellentesque, ligula vel faucibus imperdiet, arcu ligula ornare quam, et blandit risus sem sit amet neque. Curabitur commodo dui et metus suscipit, ut dignissim risus hendrerit. Quisque at odio nec risus condimentum ullamcorper. Nulla sit amet felis sit amet neque aliquet auctor sed nec metus. Sed gravida mattis sem, nec finibus diam suscipit sit amet.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget dui ut justo auctor semper a ullamcorper justo. Morbi placerat tortor tortor, ac dignissim leo semper ac. Donec non metus sit amet neque eleifend rhoncus vitae id dolor. Etiam vestibulum lobortis sem semper laoreet. Vestibulum egestas elit sed lacus egestas, placerat congue erat faucibus. Nunc ac dui auctor, fermentum turpis ac, mattis magna. Nulla pellentesque, ligula vel faucibus imperdiet, arcu ligula ornare quam, et blandit risus sem sit amet neque. Curabitur commodo dui et metus suscipit, ut dignissim risus hendrerit. Quisque at odio nec risus condimentum ullamcorper. Nulla sit amet felis sit amet neque aliquet auctor sed nec metus. Sed gravida mattis sem, nec finibus diam suscipit sit amet.</p>
+            </div>
+        </div>
+    </body>
+
+    <style>
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 40px;
+        }
+
+        .col {
+            flex: 1 0 320px;
+        }
+
+        .one, .two-a, .two-b, .three {
+            background-color: black;
+            color: white;
+            padding: 20px;
+            margin: 10px;
+            box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        }
+
+        .two-a {
+            margin-bottom: 20px;
+        }
+
+        .two-a, .two-b {
+            min-width: 320px;
+        }
+
+        h2, h3 {
+            font-family: arial;
+        }
+
+        h2 {
+            margin-left: 50px;
+        }
+
+
+    </style>
+</html>
